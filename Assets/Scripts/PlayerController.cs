@@ -7,6 +7,8 @@ public class PlayerController : People {
 	void Start () {
 		rb = GetComponent<Rigidbody2D> ();
 		sr = GetComponent<SpriteRenderer> ();
+
+		isCursed = true;
 	}
 
 	// Update is called once per frame

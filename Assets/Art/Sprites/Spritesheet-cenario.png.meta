@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 39319cbdf6d89d6468f03e09db8c9ab3
-timeCreated: 1478950939
+timeCreated: 1479208281
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -8,6 +8,8 @@ TextureImporter:
     21300002: Grass_1
     21300004: Dirt_0
     21300006: Dirt_1
+    21300008: Grass_dead_0
+    21300010: Grass_dead_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -48,7 +50,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 1
+  spritePixelsToUnits: 32
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
@@ -61,11 +63,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 110
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 352
+        width: 32
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -73,12 +75,12 @@ TextureImporter:
       name: Grass_1
       rect:
         serializedVersion: 2
-        x: 11
-        y: 110
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 34
+        y: 352
+        width: 32
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -87,11 +89,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 99
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 318
+        width: 32
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -99,12 +101,38 @@ TextureImporter:
       name: Dirt_1
       rect:
         serializedVersion: 2
-        x: 11
-        y: 99
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 34
+        y: 318
+        width: 32
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grass_dead_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 284
+        width: 32
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Grass_dead_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 32
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

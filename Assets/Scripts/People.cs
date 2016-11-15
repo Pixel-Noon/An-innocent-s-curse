@@ -4,10 +4,13 @@ using System.Collections;
 public class People : MonoBehaviour{
 	private const double EPS = 1e-9;
 
-	protected Rigidbody2D rb;
-	private bool isGrounded;
-	protected bool isLeft = true;
 	private bool canJump = true;
+	private bool isGrounded;
+
+	protected bool isDead = false;
+	protected Rigidbody2D rb;
+	protected bool isLeft = true;
+	protected bool isCursed;
 	protected SpriteRenderer sr;
 
 	public float speed;
@@ -56,5 +59,16 @@ public class People : MonoBehaviour{
 			isGrounded = check;
 			canJump = true;
 		}
+	}
+
+	protected IEnumerator KillByCurse(){
+		speed *= 1.3f;
+		yield return new WaitForSeconds (5);
+		print (gameObject.name + " is dead");
+		isDead = true;
+	}
+
+	public bool CheckCurse(){
+		return isCursed;
 	}
 }
