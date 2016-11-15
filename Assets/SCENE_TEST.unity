@@ -343,7 +343,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000013301073042, guid: ccbd359ddf79e7045a6a4cc4a475ddb0, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 7.09
+      value: 3.37
       objectReference: {fileID: 0}
     - target: {fileID: 4000013301073042, guid: ccbd359ddf79e7045a6a4cc4a475ddb0, type: 2}
       propertyPath: m_LocalPosition.y
@@ -386,7 +386,7 @@ Prefab:
     - target: {fileID: 114000010055273662, guid: ccbd359ddf79e7045a6a4cc4a475ddb0,
         type: 2}
       propertyPath: radiusOfMovement
-      value: -1
+      value: -2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ccbd359ddf79e7045a6a4cc4a475ddb0, type: 2}
@@ -532,11 +532,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000013927810440, guid: dc573eeff595db741b5c90eee56cf620, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -7.91
+      value: -5.75
       objectReference: {fileID: 0}
     - target: {fileID: 4000013927810440, guid: dc573eeff595db741b5c90eee56cf620, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.97
+      value: -0.49
       objectReference: {fileID: 0}
     - target: {fileID: 4000013927810440, guid: dc573eeff595db741b5c90eee56cf620, type: 2}
       propertyPath: m_LocalPosition.z
@@ -560,7 +560,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013927810440, guid: dc573eeff595db741b5c90eee56cf620, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114000014125535896, guid: dc573eeff595db741b5c90eee56cf620,
         type: 2}
@@ -1551,7 +1551,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1521401351}
-  m_Layer: 0
+  - 114: {fileID: 1521401352}
+  m_Layer: 31
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1572,7 +1573,26 @@ Transform:
   - {fileID: 1655785346}
   - {fileID: 1980985281}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
+--- !u!114 &1521401352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1521401350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 798e79b66237dc9419bd8659264b4747, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloudSprites:
+  - {fileID: 21300000, guid: 33b9ec7488da56e48a0650741466036c, type: 3}
+  - {fileID: 21300002, guid: 33b9ec7488da56e48a0650741466036c, type: 3}
+  - {fileID: 21300004, guid: 33b9ec7488da56e48a0650741466036c, type: 3}
+  - {fileID: 21300006, guid: 33b9ec7488da56e48a0650741466036c, type: 3}
+  cloud: {fileID: 1000011480341238, guid: 2c9ac933f4f37d6428839bc8afae944e, type: 2}
+  maxClouds: 3
+  noClouds: 0
 --- !u!4 &1534172589 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000012994931914, guid: 965b40eb6ff0cdf4195fc6cfb8c2afe2,
@@ -1769,7 +1789,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1655785346}
   - 212: {fileID: 1655785345}
-  m_Layer: 8
+  m_Layer: 31
   m_Name: tumblr_static_tumblr_static_bn1bpnhlkv4kssgs4g4c8k80s_640
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2432,7 +2452,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1980985281}
   - 212: {fileID: 1980985280}
-  m_Layer: 8
+  m_Layer: 31
   m_Name: tumblr_static_tumblr_static_bn1bpnhlkv4kssgs4g4c8k80s_640 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
